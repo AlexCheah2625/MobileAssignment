@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    >
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/img11"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img12"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img13"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/img21"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img22"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img23"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/img31"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img32"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img33"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/img41"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img42"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img43"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/img51"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img52"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+        <ImageView
+            android:id="@+id/img53"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:layout_height="match_parent"
+            android:onClick="onImageViewClicked"
+            android:contentDescription=" "
+            />
+    </LinearLayout>
+
+</LinearLayout>

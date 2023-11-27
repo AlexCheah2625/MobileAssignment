@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Rule"
+    android:background="@drawable/rulebackground">
+    <View
+        android:background="@drawable/rule"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/ldtop_view"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:id="@+id/rule">
+
+        <TextView
+            android:id="@+id/ruletxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:text="Rules"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ruletextbackground"
+        android:orientation="vertical"
+        android:layout_below="@+id/rule"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:paddingLeft="10dp"
+            android:text="Welcome to Dawn till Moon. Your objective is to tap as much
+ moon as possible in each stage. However, in every stage the number of moon will be increased
+ based on the level that you are currently in, if you tapped on the empty image slot the game will be over, so be careful.
+ In addition, each stage's will have a 5 second play time tap as more moon
+ in the given.
+  Good Luck and enjoy the game !"
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+    </LinearLayout>
+</RelativeLayout>

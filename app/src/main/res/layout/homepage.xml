@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/homebackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="317dp"
+            android:background="@drawable/moonandstar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/gravitas_one"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:text="Dawn Till Moon"
+            android:textAlignment="center"
+            android:textColor="#DEDEDE"
+            android:textSize="28sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="497dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ply_btn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/butttoncolor"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:lineSpacingExtra="8sp"
+            android:text="PLAY"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:onClick="Play"/>
+
+        <Button
+            android:id="@+id/Rule_btn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/butttoncolor"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:lineSpacingExtra="8sp"
+            android:text="RULE"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:onClick="Rule"/>
+
+        <Button
+            android:id="@+id/leader_btn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/butttoncolor"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:lineSpacingExtra="8sp"
+            android:text="LEADERBOARD"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:onClick="Leaderboard"/>
+
+        <Button
+            android:id="@+id/Exit_btn"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/butttoncolor"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:lineSpacingExtra="8sp"
+            android:text="EXIT"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:onClick="Exit"/>
+    </LinearLayout>
+
+</LinearLayout>
