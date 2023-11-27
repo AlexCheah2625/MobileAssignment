@@ -27,12 +27,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent (this, GameView.class);
         startActivity(intent);
     }
-
+    //View Rule Page
     public void Rule(View view) {
         Intent intent = new Intent (this, Rule.class);
         startActivity(intent);
     }
-
+    //Exit Game
     public void Exit(View view) {
         System.exit(0);
     }
